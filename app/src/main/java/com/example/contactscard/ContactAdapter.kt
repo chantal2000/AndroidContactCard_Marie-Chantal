@@ -25,9 +25,9 @@ class ContactAdapter(var contactList:List<Contact>):RecyclerView.Adapter<Contact
     }
 }
 class ContactViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
-    var tlName=itemView.findViewById<TextView>(R.id.tlName)
+    var tlName=itemView.findViewById<TextView>(R.id.tilName)
     var tlPhone=itemView.findViewById<TextView>(R.id.tlPhone)
-    var tlEmail=itemView.findViewById<TextView>(R.id.tlEmail)
+    var tlEmail=itemView.findViewById<TextView>(R.id.tilEmail)
 
 
 }
